@@ -1,0 +1,27 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-menu {
+	list-style: none;
+	display: flex;
+}
+
+.navbar-menu > li {
+	padding-right: 30px;
+}
+
+.navbar-logo {
+	width: 50px;
+}
+
+.footer {
+	background: grey;
+	color: aliceblue;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
